@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto, Verdana, Geneva, sans-serif;
+    color: #546270;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+}
+
+section {
+    padding: 30px;
+}
+
+footer {
+    background-color: #F5F2ED;
+    width: 100%;
+    height: 15vh;
+}
