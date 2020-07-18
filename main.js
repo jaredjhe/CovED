@@ -12,6 +12,14 @@ gradeElement.onchange = function() {
 
 let buttonElement = document.getElementById("go-button");
 buttonElement.onclick = function() {
-    resultingId = "curriculum.html#" + provinceValue + "-" + gradeValue;
-    buttonElement.href = resultingId;
+    if (provinceValue == undefined) {
+        let provinceLabelElement = document.getElementById("select-form-province-label");
+        provinceLabelElement.innerHTML = '<span style="color:red;">Please Select a Province</span>';
+    } else if (gradeValue == undefined) {
+        let provinceLabelElement = document.getElementById("select-form-grade-level-label");
+        provinceLabelElement.innerHTML = '<span style="color:red;">Please Select a Grade</span>';
+    } else {
+        resultingId = "curriculum.html#" + provinceValue + "-" + gradeValue;
+        buttonElement.href = resultingId;
+    }
 }
