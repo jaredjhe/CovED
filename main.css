@@ -32,6 +32,18 @@ section {
     padding: 30px;
 }
 
+.select-forms {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group-province, .form-group-grade-level {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 10px;
+}
+
 footer {
     background-color: #F5F2ED;
     width: 100%;
