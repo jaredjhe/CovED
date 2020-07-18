@@ -38,3 +38,9 @@ body {
     color: #546270;
     margin: 0px 0px;
 }
+header h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
