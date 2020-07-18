@@ -59,3 +59,14 @@ footer {
 .icons {
     filter: invert(37%) sepia(36%) saturate(229%) hue-rotate(169deg) brightness(91%) contrast(90%);
 }
+#curriculumRequirements {
+  width: 100%;
+  height: 40vh;
+  background-image: url(assets/images/curriculumrequirementsheader.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
