@@ -9,6 +9,8 @@
         <link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+        <script src="assets/bootstrap/bootstrap.min.js"></script>
     </head>
     <body>
         <header>
@@ -21,25 +23,37 @@
             <p>
                 COVID-19 has affected education systems around the globe. Here in Canada, students might feel lost without their teachers, mentors, and peers. But turning to online learning is a different challenge altogether. It can be difficult trying to find the resources, which is why CovED is here to help. To get started, select your province and grade level to view the necessary skills to complete your curriculum.
             </p>
-            <div class="dropdown-menus">
-                <div class="dropdown">
-                    <div class="form-group">
-                        <label for="dropdown-province">Province</label>
-                        <select class="form-control" id="dropdown-province">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                      </div>
+            <div class="select-forms">
+                <div class="form-group-province">
+                    <label for="select-form-province">Province</label>
+                    <select class="form-control" id="select-form-province">
+                        <option value="" selected disabled hidden>Select a Province</option>
+                        <option>British Columbia</option>
+                        <option>Alberta</option>
+                        <option>Saskatchewan</option>
+                        <option>Manitoba</option>
+                        <option>Ontario</option>
+                        <option>Québec</option>
+                        <option>New Brunswick</option>
+                        <option>Nova Scotia</option>
+                        <option>Prince Edward Island</option>
+                        <option>Newfoundland and Labrador</option>
+                        <option>Yukon</option>
+                        <option>Northwest Territories</option>
+                        <option>Nunavut</option>
+                    </select>
                 </div>
-                <div class="dropdown">
+                <div class="form-group-grade-level">
+                    <label for="select-form-grade-level">Grade Level</label>
+                    <select class="form-control" id="select-form-grade-level">
+                        <option value="" selected disabled hidden>Select a Grade Level</option>
+                        <option>Grade 11</option>
+                        <option>Grade 12</option>
+                    </select>
+                </div>
+            </div>
+            <div class="go-button">
 
-                </div>
-                <div class="go-button">
-
-                </div>
             </div>
         </section>
 
