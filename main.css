@@ -34,14 +34,20 @@ section {
 
 .select-forms {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: flex-end;   
 }
 
 .form-group-province, .form-group-grade-level {
     display: flex;
     flex-direction: column;
     width: 25%;
-    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    height: calc(1.5em + .75rem + 2px);
 }
 
 footer {
