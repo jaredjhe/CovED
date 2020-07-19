@@ -47,6 +47,18 @@ section p {
     font-weight: bold;
 }
 
+.select-forms {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group-province, .form-group-grade-level {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 10px;
+}
+
 footer {
     background-color: #F5F2ED;
     width: 100%;
@@ -149,4 +161,17 @@ footer {
     color: #546270;
     transition: all 0.25s;
     cursor: pointer;
-}
+  }
+
+  .navbar-nav {
+      float:none;
+      margin:0 auto;
+      display: block;
+      text-align: center;
+  }
+
+  .navbar-nav > li {
+      display: inline-block;
+      float:none;
+      padding-left: 100px;
+  }
