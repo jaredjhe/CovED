@@ -49,12 +49,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     margin-right: 50px;
 }
 
 .icons img {
     width: 30px;
 }
+
 .navbar-nav {
     float:none;
     margin:0 auto;
