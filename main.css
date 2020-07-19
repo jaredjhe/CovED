@@ -40,6 +40,8 @@ section {
     justify-content: center;
     align-items: flex-end;
     margin-top: 60px;
+    position: relative;
+    right: 20px;
 }
 
 .form-group-province, .form-group-grade-level {
