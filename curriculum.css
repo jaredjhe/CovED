@@ -72,3 +72,76 @@ section {
 h3{
   padding-top: 40px;
 }
+
+.chemistry{
+    background-color: #ed6f68;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2.5px;
+    line-height: 1;
+    margin: 2.5px;
+  }
+.chemistry:hover{
+    background-color: #FFFFFF;
+    border: 2.5px solid #ed6f68;
+    color: #546270;
+    transition: all 0.25s;
+    cursor: pointer;
+  }
+  .math{
+    background-color: #8a9AED;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2.5px;
+    line-height: 1;
+    margin: 2.5px;
+  }
+.math:hover{
+    background-color: #FFFFFF;
+    border: 2.5px solid #8a9aed;
+    color: #546270;
+    transition: all 0.25s;
+    cursor: pointer;
+  }
+  .physics{
+    background-color: #4592d1;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2.5px;
+    line-height: 1;
+    margin: 2.5px;
+  }
+.physics:hover{
+    background-color: #FFFFFF;
+    border: 2.5px solid #4592d1;
+    color: #546270;
+    transition: all 0.25s;
+    cursor: pointer;
+  }
+  .bio{
+    background-color: #77c79f;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2.5px;
+    line-height: 1;
+    margin: 2.5px;
+  }
+.bio:hover{
+    background-color: #FFFFFF;
+    border: 2.5px solid #77c79f;
+    color: #546270;
+    transition: all 0.25s;
+    cursor: pointer;
+  }
