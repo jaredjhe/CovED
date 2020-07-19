@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Roboto, Verdana, Geneva, sans-serif;
     color: #546270;
@@ -35,23 +33,19 @@ section {
     padding: 30px;
 }
 
+section .row {
+    margin-bottom: 80px;
+}
+
+section .button-line {
+    margin-bottom: 20px;
+}
+
 section p {
     margin-top: 15px;
     margin-bottom: 0px;
     font-weight: bold;
 }
-
-.select-forms {
-    display: flex;
-    justify-content: center;
-}
-
-.form-group-province, .form-group-grade-level {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 10px;
-} 
 
 footer {
     background-color: #F5F2ED;
@@ -77,11 +71,7 @@ footer {
     width: 30px;
 }
 
-h3{
-  padding-top: 40px;
-}
-
-.chemistry{
+.chemistry {
     background-color: #ed6f68;
     color: white;
     padding: 10px 10px;
@@ -92,14 +82,16 @@ h3{
     line-height: 1;
     margin: 2.5px;
   }
-.chemistry:hover{
+
+.chemistry:hover {
     background-color: #FFFFFF;
     border: 2.5px solid #ed6f68;
     color: #546270;
     transition: all 0.25s;
     cursor: pointer;
-  }
-  .math{
+}
+
+.math {
     background-color: #8a9AED;
     color: white;
     padding: 10px 10px;
@@ -109,15 +101,17 @@ h3{
     border-radius: 2.5px;
     line-height: 1;
     margin: 2.5px;
-  }
-.math:hover{
+}
+
+.math:hover {
     background-color: #FFFFFF;
     border: 2.5px solid #8a9aed;
     color: #546270;
     transition: all 0.25s;
     cursor: pointer;
-  }
-  .physics{
+}
+
+.physics {
     background-color: #4592d1;
     color: white;
     padding: 10px 10px;
@@ -127,15 +121,17 @@ h3{
     border-radius: 2.5px;
     line-height: 1;
     margin: 2.5px;
-  }
-.physics:hover{
+}
+
+.physics:hover {
     background-color: #FFFFFF;
     border: 2.5px solid #4592d1;
     color: #546270;
     transition: all 0.25s;
     cursor: pointer;
-  }
-  .bio{
+}
+
+.biology {
     background-color: #77c79f;
     color: white;
     padding: 10px 10px;
@@ -145,11 +141,12 @@ h3{
     border-radius: 2.5px;
     line-height: 1;
     margin: 2.5px;
-  }
-.bio:hover{
+}
+
+.biology:hover {
     background-color: #FFFFFF;
     border: 2.5px solid #77c79f;
     color: #546270;
     transition: all 0.25s;
     cursor: pointer;
-  }
+}
