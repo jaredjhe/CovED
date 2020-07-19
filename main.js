@@ -17,7 +17,7 @@ buttonElement.onclick = function() {
         provinceLabelElement.innerHTML = '<span style="color:red;">Please Select a Province</span>';
     } else if (gradeValue == undefined) {
         let provinceLabelElement = document.getElementById("select-form-grade-level-label");
-        provinceLabelElement.innerHTML = '<span style="color:red;">Please Select a Grade</span>';
+        provinceLabelElement.innerHTML = '<span style="color:red;">Please Select a Grade Level</span>';
     } else {
         resultingId = "curriculum.html#" + provinceValue + "-" + gradeValue;
         buttonElement.href = resultingId;
